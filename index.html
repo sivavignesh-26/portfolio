@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <!-- Linking icon cdn links -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css"> 
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+<body>
+    <!-- Header start -->
+    <header>
+        <nav class="navbar navbar-expand-lg bg-white px-sm-5 py-3 px-3 fixed-top">
+          <div class="container-fluid">
+
+            <a class="navbar-brand" href="#">
+                <img src="assets/img/header-logo.png" class="object-fit-cover header-img" alt="">
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+  
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+
+              <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+                  <a class="navbar-brand d-flex align-items-center" href="#">
+                    <img src="assets/img/header-logo.png" class="col-8"  alt="">
+                    <p class="header-title position-relative mt-3 fs-3"></p>
+                  </a>
+                </h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+
+              </div>
+  
+              <div class="offcanvas-body">
+
+                  <ul class="navbar-nav d-flex column-gap-lg-3 ms-auto">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#hpme">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-dark" href="#portfolio">Portfolio</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-dark" href="#about">About me</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-dark" href="#testimonials">Testimonials</a>
+                      </li>
+                    </ul>
+                    <a href="#contact" class="header-btn ms-auto">
+                      <button class="px-3 py-2 bg-white rounded">Contact Me</button>
+                  </a>
+              </div>
+
+
+            </div>
+          </div>
+        </nav>
+    </header>
+    <!-- Header end -->
+
+    <main>
+      <!-- Homepage Start -->
+      <section id="home" class="mt-4 pt-5">
+        <div class="container-fluid home-content">
+          <div class="row justify-content-md-center min-vh-100 align-items-md-center row-gap-sm-5 row-gap-3 p-1 p-lg-5">
+
+            <div class="col-md-6 mt-md-0 mt-3">
+              <div class="card border-0">
+                <img src="assets/img/Home-images.png" class="home-pageimg" alt="">
+              </div>
+            </div>
+
+            <div class="col-md-6 order-md-first home-pagecontent">
+              <p style="font-weight: 600;" class="kk">Hey,I am john</p>
+              <h1 class="h1">I create <span>product design</span> and brand experience</h1>
+              <p class="lh-base col-lg-8 kk" style="font-weight: 400;;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+              <a href="#" class="">
+                <button class="border-0 px-3 py-3 rounded d-block mt-4 btn-home">Get in Touch</button>
+              </a>
+            </div>
+
+          </div>
+        </div>
+      </section> 
+
+      <!-- Skills Section Start -->
+      <section>
+        <div class="container-fuild skills-section min-vh-90 p-md-5 p-3">
+
+          <div class="main-txt mt-3 mt-md--5">
+            <p style="font-weight: 600;" class="kk">My Skills</p>
+            <h1 class="h1" style="font-weight: 700;">My Expertise</h1>
+          </div>
+
+          <div class="Skills-card" style="margin-top: 70px;">
+
+            <div class="">
+              <div class="card card-first p-3 border-0">
+                <div class="skills-img">
+                  <img src="assets/img/skills-img1.png" class="object-fit-cover" alt="">
+                </div>
+                <h3 class="pt-4 pb-3" style="font-weight: 700;">Strategy & Direction</h3>
+                <p style="font-weight: 400;" class="kk">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+              </div>
+            </div>
+
+            <div class="">
+              <div class="card p-3 border-0">
+                <div class="skills-img">
+                  <img src="assets/img/skills-img2.png" class="object-fit-cover" alt="">
+                </div>
+                <h3 class="pt-4 pb-3" style="font-weight: 700;">Branding & Logo</h3>
+                <p style="font-weight: 400;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+              </div>
+            </div>
+
+            <div class="">
+              <div class="card p-3 border-0">
+                <div class="skills-img">
+                  <img src="assets/img/skills-img3.png" class="object-fit-cover" alt="">
+                </div>
+                <h3 class="pt-4 pb-3" style="font-weight: 700;">UI & UX Design</h3>
+                <p style="font-weight: 400;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+              </div>
+            </div>
+
+            <div class="">
+              <div class="card p-3 border-0">
+                <div class="skills-img">
+                  <img src="assets/img/skills-img4.png" class="object-fit-cover" alt="">
+                </div>
+                <h3 class="pt-4 pb-3" style="font-weight: 700; white-space: nowrap;">Webflow Development</h3>
+                <p style="font-weight: 400;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </section> 
+
+      <!-- About Me Start -->
+      <section id="about">
+        <div class="row m-0 min-vh-100 align-items-center p-1 p-sm-5 column-gap-md-3">
+
+          <div class="col-md-6 py-3 py-md-0">
+            <div class="card border-0">
+              <img src="assets/img/About Me.png" alt="">
+            </div>
+          </div>
+
+          <div class="col-md-5 py-3 py-md-0">
+            <p style="font-weight: 600;" class="kk">About</p>
+            <h1 style="font-weight: 700;" class="h1">About Me</h1>
+            <p style="font-weight: 400;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce varius faucibus massa sollicitudin amet augue. Nibh metus a semper purus mauris duis. Lorem eu neque, tristique quis duis. Nibh scelerisque ac adipiscing velit non nulla in amet pellentesque.</p>
+
+            <p style="font-weight: 400;" class="mt-4">Sit turpis pretium eget maecenas. Vestibulum dolor mattis consectetur eget commodo vitae. Amet pellentesque sit pulvinar lorem mi a, euismod risus r.</p>
+          </div>
+        </div>
+      </section> 
+
+      <!-- Portfolio section -->
+      <section id="portfolio">
+        <div class="portfolio-container p-md-5 p-2">
+          <div class="row m-0 justify-content-between align-items-center py-5 px-2">
+            <div class="col-lg-8 col-md-6">
+              <p>Recent Projects</p>
+              <h1 class="h1 mb-md-0 mb-3">My Portfolio</h1>
+            </div>
+  
+            <div class="portfolio-main-btn col-lg-3 col-md-4">
+              <a href="#">
+                <button class="border-0 px-3 py-3 rounded mx-auto mx-md-0 d-block all-btn">
+                  <i class="fa-solid fa-basketball"></i> Visite My Dribbble
+                </button>
+              </a>
+            </div>
+          </div>
+
+          <div class="portfolio-card row m-0 gap-4">
+
+            <div class="card border-0">
+              <img src="assets/img/portfolio-img1.png" alt="">
+              <div class="p-3">
+                <h4 class="pt-2">Ahuse</h4>
+                <p class="py-2" style="font-weight: 600;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
+                <a href="#" class="text-dark">
+                  <p class="portfolio-para" style="font-weight: 400;">Viwe in Dribbles <i class="fa-solid fa-arrow-right-long ms-2"></i></p>
+                </a>
+              </div>
+            </div>
+
+            <div class="card border-0">
+              <img src="assets/img/Potfolio-img2.png" alt="">
+              <div class="p-3">
+                <h4 class="pt-2">App Dashboard</h4>
+              <p class="py-2" style="font-weight: 600;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
+              <a href="#" class="text-dark">
+                <p class="portfolio-para" style="font-weight: 400;">Viwe in Dribbles <i class="fa-solid fa-arrow-right-long ms-2 text-success"></i></p>
+              </a>
+              </div>
+            </div>
+
+            <div class="card border-0">
+              <img src="assets/img/portfolio-img3.png" alt="">
+              <div class="p-3">
+                <h4 class="pt-2">Easy Rent</h4>
+              <p class="py-2" style="font-weight: 600;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
+              <a href="#" class="text-dark">
+                <p class="portfolio-para" style="font-weight: 400;">Viwe in Dribbles <i class="fa-solid fa-arrow-right-long ms-2 text-success"></i></p>
+              </a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section> 
+
+      <!-- Testimonial sections -->
+      <section id="testimonials">
+        <div class="testimonials-container p-3 p-md-5 mt-5">
+
+          <div class="pt-5">
+            <p>Clients Feedback</p>
+            <h1 class="h1">Customer testimonials</h1>
+          </div>
+
+          <div class="swiper mt-5">
+            <div class="card-wrapper">
+              <div class="swiper-wrapper py-5">
+
+                <div class="test-card rounded p-3 swiper-slide">
+                  
+                  <div class="d-flex">
+                    <li><i class="fa-solid fa-star"></i></li>
+                    <li><i class="fa-solid fa-star"></i></li>
+                    <li><i class="fa-solid fa-star"></i></li>
+                    <li><i class="fa-solid fa-star"></i></li>
+                    <li><i class="fa-solid fa-star"></i></li>
+                  </div>
+
+                  <p class="py-3">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra.</p>
+
+                  <div class="d-flex gap-3 align-items-center test">
+                    <div class="avatar-image">
+                      <img src="assets/img/Avatar-image1.png" alt="">
+                    </div>
+                    <div>
+                      <li style="font-weight: 500;">Dianne Russell</li>
+                      <li>Starbucks</li>
+                    </div>
+                  </div>
+
+                </div>
+
+                <div class="test-card rounded p-3 swiper-slide">
+                  
+                  <div class="d-flex">
+                    <li><i class="fa-solid fa-star"></i></li>
+                    <li><i class="fa-solid fa-star"></i></li>
+                    <li><i class="fa-solid fa-star"></i></li>
+                    <li><i class="fa-solid fa-star"></i></li>
+                    <li><i class="fa-solid fa-star"></i></li>
+                  </div>
+
+                  <p class="py-3">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra.</p>
+
+                  <div class="d-flex gap-3 align-items-center test">
+                    <div class="avatar-image">
+                      <img src="assets/img/Avatar-iamge2.png" alt="">
+                    </div>
+                    <div>
+                      <li style="font-weight: 500;">Kristin Watson</li>
+                      <li>Louis Vuitton</li>
+                    </div>
+                  </div>
+
+                </div>
+
+                <div class="test-card rounded p-3 swiper-slide">
+                  
+                  <div class="d-flex">
+                    <li><i class="fa-solid fa-star"></i></li>
+                    <li><i class="fa-solid fa-star"></i></li>
+                    <li><i class="fa-solid fa-star"></i></li>
+                    <li><i class="fa-solid fa-star"></i></li>
+                    <li><i class="fa-solid fa-star"></i></li>
+                  </div>
+
+                  <p class="py-3">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra.</p>
+
+                  <div class="d-flex gap-3 align-items-center test">
+                    <div class="avatar-image">
+                      <img src="assets/img/Avatar-image3.png" alt="">
+                    </div>
+                    <div>
+                      <li style="font-weight: 500;">Kathryn Murphy</li>
+                      <li>McDonald's</li>
+                    </div>
+                  </div>
+
+                </div>
+
+                <div class="test-card rounded p-3 swiper-slide">
+                  
+                  <div class="d-flex">
+                    <li><i class="fa-solid fa-star"></i></li>
+                    <li><i class="fa-solid fa-star"></i></li>
+                    <li><i class="fa-solid fa-star"></i></li>
+                    <li><i class="fa-solid fa-star"></i></li>
+                    <li><i class="fa-solid fa-star"></i></li>
+                  </div>
+
+                  <p class="py-3">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra.</p>
+
+                  <div class="d-flex gap-3 align-items-center test">
+                    <div class="avatar-image">
+                      <img src="assets/img/Avatar-iamge2.png" alt="">
+                    </div>
+                    <div>
+                      <li style="font-weight: 500;">Dianne Russell</li>
+                      <li>Starbucks</li>
+                    </div>
+                  </div>
+
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </section> 
+      
+      <!-- Contact sections -->
+      <section id="contact">
+        <div class="contact-container p-sm-5 overflow-hidden min-vh-100">
+          <div class="text-center mt-sm-0 mt-3">
+            <p>Get in Touch</p>
+            <h1 class="h1 py-2">Contact Me</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+          </div>
+
+          <div class="row m-0 py-5 justify-content-md-center">
+            <form action="#" class="row m-0 col-md-8">
+
+              <div class="mb-3 col-md-6">
+                <label for="formGroupExampleInput" class="form-label">First name</label>
+                <input type="text" class="form-control first-input" id="formGroupExampleInput">
+              </div>
+
+              <div class="mb-3 col-md-6">
+                <label for="formGroupExampleInput2" class="form-label">Last name</label>
+                <input type="text" class="form-control second-input" id="formGroupExampleInput2">
+              </div>
+
+              <div class="mb-3 col-md-6">
+                <label for="formGroupExampleInput" class="form-label">Email</label>
+                <input type="email" class="form-control first-input" id="formGroupExampleInput">
+              </div>
+
+              <div class="mb-3 col-md-6">
+                <label for="formGroupExampleInput2" class="form-label">Phone number</label>
+                <input type="text" class="form-control second-input" id="formGroupExampleInput2" placeholder="">
+              </div>
+
+              <div class="pt-3">
+                <select class="form-select mb-3" aria-label="Default select example">
+                  <option selected>Select one...</option>
+                  <option value="1">HTML</option>
+                  <option value="2">CSS</option>
+                  <option value="3">REACTJS</option>
+                </select>
+              </div>
+
+              <div class="mb-3 pt-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Typing your message..." rows="8"></textarea>
+              </div>
+
+              <div class="form-check ms-3">
+                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                <label class="form-check-label" for="defaultCheck1">
+                  I accept the terms
+                </label>
+              </div>
+
+              <a href="#" class="py-5">
+                <button class="m-auto d-block px-4 py-2 rounded border-0 contact-btn all-btn" type="reset">Submit</button>
+              </a>
+
+            </form>
+          </div>
+        </div>
+      </section> 
+      
+    </main>
+
+    <footer>
+      <div class="footer p-md-5 p-1">
+        <div class="d-flex flex-wrap m-0 align-items-center justify-content-between p-1 p-md-5">
+          <ul class="footer-img col-lg-3 mx-auto mx-lg-0">
+            <img src="assets/img/header-logo.png" alt="">
+          </ul>
+           <ul class="d-flex flex-wrap gap-sm-4 gap-2 col-lg-7 py-lg-0 py-3 mx-auto mx-lg-0">
+            <li><a class="text-dark" href="#home">Home</a></li>
+            <li><a class="text-dark" href="#portfolio">Portfolio</a></li>
+            <li><a class="text-dark" href="#about">About Me</a></li>
+            <li><a class="text-dark" href="#contact">Contact</a></li>
+            <li><a class="text-dark" href="#testimonials">Testimonials</a></li>
+           </ul>
+           <ul class="d-flex gap-4 fs-5 col-lg-2 mx-lg-0 mx-auto">
+            <li><a href="#"><i class="fa-brands fa-facebook-f text-dark"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-instagram text-dark"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-twitter text-dark"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-linkedin text-dark"></i></a></li>
+           </ul>
+        </div>
+
+        <hr>
+
+        <div class="d-flex  justify-content-md-between p-md-5 flex-wrap">
+          <p class=" mx-auto mx-md-0">Made with &#128150; by Airdokan</p>
+          <ul class="d-flex gap-sm-4  gap-2 mx-auto mx-md-0">
+            <li><a class="text-dark" href="#">Privacy Policy</a></li>
+            <li><a class="text-dark" href="#">Terms of Service</a></li>
+            <li><a class="text-dark" href="#">Cokkies Settings</a></li>
+          </ul>
+        </div>
+
+      </div>
+    </footer>
+
+
+
+    <!-- Reveal link -->
+    <script src="assets/js/scrollreveal.min.js"></script> 
+
+    <!-- Bootstrap -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Swiper js-->
+    <script src="assets/js/swiper-bundle.min.js"></script> 
+
+    <!-- Main js -->
+    <script src="assets/js/app.js"></script> 
+</body>
+</html>
